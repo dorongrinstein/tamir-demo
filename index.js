@@ -13,7 +13,7 @@ app.get('/doron', (req, res) => {
 });
 
 app.get('/zehava', (req, res) => {
-  res.send('Hello Zehava!\n');
+  res.send('Helo Zehava!\n');
 });
 
 app.listen(port, hostname, () => {
