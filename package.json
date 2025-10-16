@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["hello-world", "nodejs"],
+  "keywords": ["hello-world", "nodejs", "express"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
 
