@@ -13,7 +13,7 @@ app.get('/doron', (req, res) => {
 });
 
 app.get('/lisi', (req, res) => {
-  res.send('Hello lisi!\n');
+  res.send('Hello lisi you are great!\n');
 });
 
 
