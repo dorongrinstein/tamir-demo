@@ -12,6 +12,12 @@ app.get('/doron', (req, res) => {
   res.send('Hello doron!\n');
 });
 
+app.get('/lisi', (req, res) => {
+  res.send('Hello lisi!\n');
+});
+
+
+
 app.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
